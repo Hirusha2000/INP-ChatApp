@@ -1,4 +1,4 @@
-package lk.hirusha.chatApp.controller;
+package lk.ijse.chat_Application.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;

@@ -1,4 +1,4 @@
-package lk.hirusha.chatApp.controller;
+package lk.ijse.chat_Application.controller;
 
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
