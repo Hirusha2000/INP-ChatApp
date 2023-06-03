@@ -16,5 +16,6 @@ public class AppInitializer extends Application {
         primaryStage.setScene(new Scene(FXMLLoader.load(getClass()
                 .getResource("lk/ijse/chat_Application/views/loginForm.fxml"))));
         primaryStage.show();
+
     }
 }
