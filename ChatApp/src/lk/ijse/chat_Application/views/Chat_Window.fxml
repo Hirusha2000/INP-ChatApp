@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
@@ -13,7 +14,7 @@
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#263238" height="75.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="499.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="75.0" layoutY="-1.0" stroke="#2f1d1d" strokeType="INSIDE" strokeWidth="0.0" width="499.0" />
-      <Label fx:id="txtClientName" layoutX="236.0" layoutY="20.0" prefHeight="34.0" prefWidth="208.0" textFill="WHITE">
+      <Label fx:id="txtClientName" layoutX="153.0" layoutY="23.0" prefHeight="34.0" prefWidth="208.0" textFill="WHITE">
          <font>
             <Font name="System Bold Italic" size="23.0" />
          </font>
@@ -23,15 +24,18 @@
          <font>
             <Font name="System Bold" size="15.0" />
          </font></TextArea>
-      <Label layoutX="33.0" layoutY="23.0" prefHeight="17.0" prefWidth="149.0" text="So Wassup guys...?" textFill="WHITE">
+      <Label layoutX="33.0" layoutY="23.0" prefHeight="34.0" prefWidth="126.0" text="Hi wassup " textFill="WHITE">
          <font>
-            <Font size="17.0" />
+            <Font name="System Bold Italic" size="23.0" />
          </font>
       </Label>
-      <ImageView fitHeight="53.0" fitWidth="71.0" layoutX="418.0" layoutY="489.0" onMouseClicked="#sendOnAction" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="54.0" fitWidth="51.0" layoutX="418.0" layoutY="489.0" onMouseClicked="#sendOnAction" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@assests/images/send-message.png" />
          </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </ImageView>
    </children>
 </AnchorPane>
