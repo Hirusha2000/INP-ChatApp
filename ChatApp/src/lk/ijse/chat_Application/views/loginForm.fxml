@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="loginFormContext" prefHeight="508.0" prefWidth="589.0" style="-fx-background-color: #2F4F4F;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chat_Application.controller.LoginFormController">
+<AnchorPane fx:id="loginFormContext" prefHeight="508.0" prefWidth="589.0" style="-fx-background-color: #156ec0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chat_Application.controller.LoginFormController">
    <children>
-      <TextField fx:id="txtUserName" alignment="TOP_LEFT" layoutX="172.0" layoutY="292.0" promptText="Enter Your Name Here" style="-fx-background-color: #455a64; -fx-focus-traversable: green; -fx-background-radius: 10;" styleClass="txtUserName" stylesheets="@assests/styles/style.css">
+      <TextField fx:id="txtUserName" alignment="TOP_LEFT" layoutX="172.0" layoutY="292.0" promptText="Enter Your Name Here" style="-fx-background-color: #455a64; -fx-background-radius: 10;" styleClass="txtUserName" stylesheets="@assests/styles/style.css">
          <font>
             <Font size="19.0" />
          </font>

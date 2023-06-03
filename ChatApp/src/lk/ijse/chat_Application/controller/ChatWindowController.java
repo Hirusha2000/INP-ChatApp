@@ -52,6 +52,7 @@ public class ChatWindowController {
                 String messageToSend = textMessage.getText();
                 dataOutputStream.writeUTF(txtClientName.getText() + " : " + messageToSend);
                 textArea.appendText("\nme : " + messageToSend);
+                textMessage.clear();
                 dataOutputStream.flush();
                 break;
             }

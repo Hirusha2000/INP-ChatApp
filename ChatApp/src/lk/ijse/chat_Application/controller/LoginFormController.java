@@ -22,6 +22,7 @@ public class LoginFormController {
             stage.setTitle("Chat Room");
             stage.show();
             stage.setMaximized(false);
+            txtUserName.clear();
         } catch (IOException e) {
             e.printStackTrace();
         }

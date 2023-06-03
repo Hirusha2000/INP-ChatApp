@@ -2,8 +2,8 @@
     -fx-background-color: #455a64;
     -fx-background-radius: 70;
     -fx-font-size: 15px;
-    -fx-text-fill: #eeeeee;
-    -fx-font-family: Arial !important;
+    -fx-text-fill: #0a0808;
+    -fx-font-family: "Roboto Light";
 }
 
 .txtUserName{

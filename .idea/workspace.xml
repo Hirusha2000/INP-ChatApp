@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4d834a93-e918-49e6-a37a-3f1b0f3c3215" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatApp/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/controller/ChatWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/controller/ChatWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/controller/LoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/controller/LoginFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/Chat_Window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/Chat_Window.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/assests/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/assests/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/loginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/loginForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +130,7 @@
       <workItem from="1685528424549" duration="606000" />
       <workItem from="1685769012952" duration="5773000" />
       <workItem from="1685776453531" duration="4129000" />
-      <workItem from="1685781264093" duration="617000" />
+      <workItem from="1685781264093" duration="2699000" />
     </task>
     <servers />
   </component>
