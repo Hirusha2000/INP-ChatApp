@@ -15,6 +15,7 @@ public class AppInitializer extends Application {
     public void start(Stage primaryStage) throws IOException {
         primaryStage.setScene(new Scene(FXMLLoader.load(getClass()
                 .getResource("lk/ijse/chat_Application/views/loginForm.fxml"))));
+        primaryStage.setResizable(false);
         primaryStage.show();
 
     }
