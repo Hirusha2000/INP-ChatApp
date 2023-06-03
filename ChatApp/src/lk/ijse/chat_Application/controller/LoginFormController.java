@@ -18,7 +18,7 @@ public class LoginFormController {
         try {
             Stage stage = new Stage();
             stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../views/Chat_Window.fxml"))));
-         /*   stage.setResizable(false);*/
+            stage.setResizable(false);
             stage.setTitle("Chat Room");
             stage.show();
             stage.setMaximized(false);

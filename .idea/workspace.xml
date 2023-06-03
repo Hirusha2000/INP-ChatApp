@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d834a93-e918-49e6-a37a-3f1b0f3c3215" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/assests/images/playteh.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatApp/src/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/AppInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/controller/LoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/controller/LoginFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/loginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/loginForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/AppInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/lk/ijse/chat_Application/controller/LoginFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/lk/ijse/chat_Application/controller/LoginFormController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/lk/ijse/chat_Application/views/loginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/lk/ijse/chat_Application/views/loginForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/Chat_Window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/Chat_Window.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +128,7 @@
       <workItem from="1685442686127" duration="4617000" />
       <workItem from="1685528424549" duration="606000" />
       <workItem from="1685769012952" duration="5773000" />
-      <workItem from="1685776453531" duration="1875000" />
+      <workItem from="1685776453531" duration="4129000" />
     </task>
     <servers />
   </component>
