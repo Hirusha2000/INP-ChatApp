@@ -22,7 +22,7 @@ public class ChatWindowController {
 
     public void initialize(){
         try {
-            socket = new Socket("localhost", 6000);
+            socket = new Socket("localhost", 6004);
             dataOutputStream = new DataOutputStream(socket.getOutputStream());
             dataInputStream = new DataInputStream(socket.getInputStream());
             sendName();
