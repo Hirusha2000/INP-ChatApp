@@ -3,7 +3,8 @@ package lk.ijse.chat_Application.controller;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -22,7 +23,7 @@ public class ChatWindowController {
 
     public void initialize(){
         try {
-            socket = new Socket("localhost", 6004);
+            socket = new Socket("localhost", 6005);
             dataOutputStream = new DataOutputStream(socket.getOutputStream());
             dataInputStream = new DataInputStream(socket.getInputStream());
             sendName();
@@ -46,7 +47,7 @@ public class ChatWindowController {
         }
     }
 
-    public void sendOnAction(MouseEvent mouseEvent) {
+    public void sendOnAction() {
         try {
             while (socket.isConnected()) {
                 String messageToSend = textMessage.getText();
@@ -60,6 +61,12 @@ public class ChatWindowController {
             closeEverything(socket, dataOutputStream, dataInputStream);
         }
     }
+    public void HereWeGoo(KeyEvent keyEvent) throws IOException {
+        if (keyEvent.getCode() == KeyCode.ENTER) {
+            sendOnAction();
+        }
+    }
+
 
     public void listenForMessage() {
         new Thread(() -> {
@@ -90,4 +97,7 @@ public class ChatWindowController {
             e.printStackTrace();
         }
     }
+
+
+
 }
