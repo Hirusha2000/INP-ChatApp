@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4d834a93-e918-49e6-a37a-3f1b0f3c3215" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatApp/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/controller/ChatWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/controller/ChatWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatApp/src/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/loginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp/src/lk/ijse/chat_Application/views/loginForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +42,11 @@
       <recent name="lk.hirusha.chatApp.view" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AAA-INP\INP-ChatApp\ChatApp\src\lk\ijse\chat_Application\views\assests\images" />
       <recent name="D:\AA-INP-Chat-APP\ChatApp\src\lk\ijse\chat_Application\views\assests\images" />
       <recent name="D:\AA-INP-Chat-APP\ChatApp\src" />
       <recent name="D:\AA-INP-Chat-APP\ChatApp\src\lk\hirusha\chatApp" />
       <recent name="D:\AA-INP-Chat-APP\ChatApp\src\lk\hirusha\chatApp\view" />
-      <recent name="D:\AA-INP-Chat-APP\ChatApp\src\lk\hirusha\chatApp\assets\styles" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lk.hirusha.chatApp" />
@@ -95,6 +94,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AppInitializer (1)" />
@@ -120,6 +130,8 @@
       <workItem from="1685781264093" duration="4567000" />
       <workItem from="1685808732766" duration="1157000" />
       <workItem from="1685948635985" duration="917000" />
+      <workItem from="1685972665286" duration="1349000" />
+      <workItem from="1686195716611" duration="3566000" />
     </task>
     <servers />
   </component>

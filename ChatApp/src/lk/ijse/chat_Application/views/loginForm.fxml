@@ -29,7 +29,7 @@
             <Image url="@assests/images/playteh.PNG" />
          </image>
       </ImageView>
-      <Label layoutX="164.0" layoutY="212.0" prefHeight="42.0" prefWidth="262.0" text="Let's have some fun" textFill="#9bb2db">
+      <Label layoutX="165.0" layoutY="212.0" prefHeight="42.0" prefWidth="262.0" text="Let's have some fun" textFill="#9bb2db">
          <font>
             <Font name="Cambria" size="29.0" />
          </font>
@@ -37,6 +37,11 @@
       <Label layoutX="116.0" layoutY="439.0" prefHeight="42.0" prefWidth="359.0" text="ALL Rights Reserved By Play Tech (pvt) ltd @2023." textFill="#160400">
          <font>
             <Font name="Cambria" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="271.0" prefHeight="21.0" prefWidth="163.0" text="Enter Your Name Below" textFill="#a82c2c">
+         <font>
+            <Font size="15.0" />
          </font>
       </Label>
    </children>
